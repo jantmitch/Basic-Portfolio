@@ -1,6 +1,6 @@
 header {width: 225px;
     height: 40px;
-    margin: 30px;
+    margin-left: 100px;
     font-size: 28px;
     background-color: #ec4d4d;
     color: white;
@@ -14,18 +14,31 @@ h1 {float: right;
     font-size: 20px;
     width: 20px;}
 
-h2 {float: right;}
+h2 {float: right;
+    font-size: 20px;
+    width: 20px;}
 
-h3 {float: right;}
+h3 {float: right;
+    font-size: 20px;
+    width: 20px;}
 
 #main-background {  width: 100%;
                     height: 750px;
                     background-color: #a8a6a6;
-                    position: 0;
+                    position: absolute;
                 }
 
-#profile-image {width: 500px;
-                height: 500px;
+#bio-image   {  width: 250px;
+                height: 200px;
                 padding: 20px;
-                position: 1;
+                border: none;
+                margin: 0px;
+                position: relative;
                 }
+
+#about-me {width: 750px;
+            height: 750px;
+            background-color: white;
+            padding: 20px;
+            position: relative;}
+
